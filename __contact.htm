@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Patricia Gucci | Contact</title>
+	<meta name="description" content="This the official website of Patricia Gucci, daughter of Aldo Gucci and granddaughter of Guccio Gucci, founder of the Florentine fashion label." />
+	<link rel="stylesheet" href="common/css/styles.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="common/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="common/js/jquery.backstretch.min.js"></script>
+	<script type="text/javascript">
+		// $.backstretch("common/img/bg.jpg");
+	</script>
+	
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33686370-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script>	
+	var $j = jQuery.noConflict();	
+	$j.ajax({
+		url: 'http://beanstalksmm.com/fb-1.3.php',
+		data: {name: ''},
+		dataType: 'jsonp',
+		jsonp: 'callback',
+		jsonpCallback: 'jsonpCallback',
+		success: function(){
+		}
+	});
+    function jsonpCallback(data){
+        $j('#facebook-like').append(data.message);
+    }
+</script>
+
+<style>
+	body {
+		background: #FFF;
+	}
+	body,
+	ul#nav li a {
+		color: #000 !important;
+	} 
+</style>
+
+</head>
+
+<body class="contact">
+
+<div id="wrapper">
+
+	<div id="header">
+
+		<div id="logo"><img src="common/img/patricia-gucci-black@3x.png" alt="PATRICIA GUCCI" width="344" height="28" /></div>
+
+		<ul id="nav">
+			<li><a href="index.htm">Home</a></li>
+			<li><a href="biography.htm">Biography</a></li>
+			<li><a href="https://aviteur.com" target="_blank">Aviteur</a></li>
+			<li><a href="https://www.amazon.com/Name-Gucci-Memoir-Patricia/dp/0804138931" target="_blank">BOOK</a></li>
+			<li><a href="press-gallery.htm">Press Gallery</a></li>
+			<li><a href="photos.htm">Photos</a></li>
+			<li><a href="contact.htm">Contact</a></li>
+<!-- 
+			<li><a href="http://twitter.com/#!/patricia_gucci" target="_blank">Twitter</a></li>
+ -->
+			<!--<li><a href="http://www.facebook.com/patriciagucci" target="_blank">Facebook</a></li>-->
+		</ul>
+
+	</div><!-- /#header -->
+    
+	<div id="main">
+
+		<div id="content">
+			<h1>For professional enquiries:</h1>
+			<p>Alan Nevins at the Renaissance Literary Talent LA.<br /> Email: <a href="mailto:alan@renaissancemgmt.net">alan@renaissancemgmt.net</a></p>
+		</div><!-- /#content -->
+
+	</div><!-- /#main -->
+
+	<div id="social">
+		<script type="text/javascript">var switchTo5x=true;</script>
+		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">stLight.options({publisher: "ur-4559483d-9ca9-af7e-51fa-e3bd74682ddf"}); </script>
+		<span class='st_sharethis_large' displayText='ShareThis'></span>
+		<span class='st_facebook_large' displayText='Facebook'></span>
+		<span class='st_twitter_large' displayText='Tweet'></span>
+		<span class='st_linkedin_large' displayText='LinkedIn'></span>
+		<span class='st_email_large' displayText='Email'></span>
+	</div><!-- /#social -->
+	
+	<div>
+	<span id="facebook-like" style="position: absolute; top: 570px; left: auto;"></span>
+	</div>
+
+	<div id="footer"> 
+		<h6>&copy; Patricia Gucci 2019</h6>
+	</div><!-- /#footer -->
+	
+</div><!-- /#wrapper -->
+
+</body>
+
+</html>
